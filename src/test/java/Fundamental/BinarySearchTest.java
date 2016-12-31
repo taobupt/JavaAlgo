@@ -20,7 +20,7 @@ public class BinarySearchTest {
     public void testIndexOf() throws Exception {
 
         int []nums={1,2,3,4,5,6};
-        int index=binarySearch.indexOf(nums,4);
-        assertEquals(index,3);
+        int index = binarySearch.indexOf(nums, 6);
+        assertEquals(index, 5);
     }
 }
