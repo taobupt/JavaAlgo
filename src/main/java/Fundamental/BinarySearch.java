@@ -22,4 +22,6 @@ public class BinarySearch {
         }
         return nums[begin]==key?begin:-1;
     }
+
+    //you can also write the
 }
